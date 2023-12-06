@@ -1,10 +1,5 @@
 import java.util.Scanner;
 
-/**
- * A simple class to run the Magpie class.
- * @author Laurie White
- * @version April 2012
- */
 public class ChatbotAutograder
 {
 
@@ -91,5 +86,50 @@ public class ChatbotAutograder
             System.out.println(biased.getResponse("I hate and dislike elves"));
             System.out.println(biased.getResponse("I do not know that man"));
         }
-    }
+        if (decider == 5) {
+            System.out.println(unbiased.getResponse("I want to eat pie."));
+            System.out.println(biased.getResponse("I want to go fishing!"));
+            System.out.println(biased.getResponse("Willow and I want to skip rocks."));
+            System.out.println(unbiased.getResponse("I really want to a lot of money."));
+            System.out.println(unbiased.getResponse("I want to go swimming, unless Paul doesn't want to?"));
+            System.out.println(biased.getResponse("I want to throw a party!"));
+
+            System.out.println(unbiased.getResponse("I want pie."));
+            System.out.println(biased.getResponse("I want a million bucks!"));
+            System.out.println(biased.getResponse("I don't think I want to go today."));
+            System.out.println(unbiased.getResponse("I want unconditional love."));
+            System.out.println(biased.getResponse("I want many things for Christmas."));
+        }
+        if (decider == 6){
+            Chatbot newBot = new Chatbot();
+            System.out.println(newBot.getResponse("What was the last thing I said?"));
+            System.out.println(newBot.getResponse("Can you repeat that?"));
+            Chatbot newBot2 = new Chatbot();
+            System.out.println(newBot2.getResponse("Can you repeat that?"));
+            newBot.getResponse("What is the meaning of life?");
+            System.out.println(newBot.getResponse("Can you repeat that?"));
+            newBot.getResponse("I love SBS!");
+            System.out.println(newBot.getResponse("What was the last thing I said?"));
+        }
+        if (decider == 7){
+            System.out.println(unbiased.getResponse("You complete me!"));
+            System.out.println(unbiased.getResponse("You annoy me so much."));
+            System.out.println(biased.getResponse("You cannot compete with me."));
+            System.out.println(biased.getResponse("He doesn't understand why you try to play with me."));
+            System.out.println(biased.getResponse("It's a known fact that you can eat more than me."));
+            System.out.println(unbiased.getResponse("You are very mad at me."));
+            System.out.println(unbiased.getResponse("You seem to take issue with me."));
+            System.out.println(unbiased.getResponse("Your cousin is friends with me."));
+            System.out.println(biased.getResponse("Your cousin is friends with me."));
+
+ 
+            System.out.println(unbiased.getResponse("I create music for you!"));
+            System.out.println(biased.getResponse("I feel strongly about you."));
+            System.out.println(unbiased.getResponse("It's too bad that I bake so much better than you."));
+            System.out.println(unbiased.getResponse("It's insane how I am so much cooler than you."));
+            System.out.println(biased.getResponse("I can think of many things to do to you!"));
+            System.out.println(unbiased.getResponse("I'm on the train to see you."));
+            System.out.println(biased.getResponse("It's great to see your accomplishments."));
+        }
+        }
 }
