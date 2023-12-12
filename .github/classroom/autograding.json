@@ -53,7 +53,7 @@
     {
       "name": "Part 6 Tests",
       "setup": "javac ChatbotAutograder.java Chatbot.java",
-      "run": "java ChatbotAutograder",
+      "run": "java ChatbotAutograder 6",
       "input": "",
       "output": "",
       "comparison": "regex",
@@ -63,7 +63,7 @@
     {
       "name": "Part 7 Tests",
       "setup": "javac ChatbotAutograder.java Chatbot.java",
-      "run": "java ChatbotAutograder",
+      "run": "java ChatbotAutograder 7",
       "input": "",
       "output": "What makes you think that I complete you\\?\\nWhat makes you think that I annoy you\\?\\nWhat makes you think that I cannot compete with you\\?\\nWhat makes you think that I try to play with you\\?\\nWhat makes you think that I can eat more than you\\?\\nWhat makes you think that I am very mad at you\\?\\nWhat makes you think that I seem to take issue with you\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWhy do you create music for me\\?\\nWhy do you feel strongly about me\\? Is it because I love checkers\\?\\nWhy do you bake so much better than me\\?\\nWhy are you so much cooler than me\\?\\nWhy can you think of many things to do to me\\? Is it because I love checkers\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))",
       "comparison": "regex",
