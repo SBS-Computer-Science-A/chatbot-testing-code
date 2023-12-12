@@ -43,7 +43,7 @@
     {
       "name": "Part 5 Tests",
       "setup": "javac ChatbotAutograder.java Chatbot.java",
-      "run": "java ChatbotAutograder",
+      "run": "java ChatbotAutograder 5",
       "input": "",
       "output": "Why do you want to eat pie\\?\\nWhy do you want to go fishing\\? Does it involve checkers\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWhy do you want to go swimming, unless Paul doesn't want to\\?\\nWhy do you want to throw a party\\? Does it involve checkers\\?\\nWould you really be happy if you had pie\\?\\nWould you really be happy if you had a million bucks\\? I know I'd be happy if I had checkers.\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWould you really be happy if you had unconditional love\\?\\nWould you really be happy if you had many things for Christmas\\? I know I'd be happy if I had checkers.",
       "comparison": "regex",
