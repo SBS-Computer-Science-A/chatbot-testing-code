@@ -55,7 +55,7 @@
       "setup": "javac ChatbotAutograder.java Chatbot.java",
       "run": "java ChatbotAutograder 6",
       "input": "",
-      "output": "",
+      "output": "You didn't say anything.\\nYou didn't say anything.\\nRepeat what\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nI love SBS\\!",
       "comparison": "regex",
       "timeout": 10,
       "points": null
