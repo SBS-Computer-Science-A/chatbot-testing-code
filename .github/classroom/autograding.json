@@ -25,7 +25,7 @@
       "setup": "javac ChatbotAutograder.java Chatbot.java",
       "run": "java ChatbotAutograder 3",
       "input": "",
-      "output": "Why so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWhy so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nTell me more about your family.\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nTell me more about your family. Do they like checkers\\?\\nTell me more about your family.\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nTell me more about your family. Do they like checkers\\?\\nWhy so negative\\?",
+      "output": "Why so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWhy so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nTell me more about your family.\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nTell me more about your family. Do they like checkers\\?\\nTell me more about your family.\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nTell me more about your family.\\nTell me more about your family. Do they like checkers\\?\\nWhy so negative\\?",
       "comparison": "regex",
       "timeout": 10,
       "points": null
@@ -36,6 +36,36 @@
       "run": "java ChatbotAutograder 4",
       "input": "",
       "output": "I'm a chatbot, here to chat\\!\\nI'm a chatbot and I love checkers\\!\\nThanks for that suggestion, I now love rainbows.\\nThanks for that suggestion, I now love snails instead.\\nThanks for that suggestion, I now love King Kong instead.\\nExcuse me, but I disagree; I love snails\\!\\nWhy so negative\\?\\nExcuse me, but I disagree; I love King Kong!\\nExcuse me, but I disagree; I love snails\\!\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWhy so negative\\?\\nWhy so negative\\?\\nWhy so negative\\?",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Part 5 Tests",
+      "setup": "javac ChatbotAutograder.java Chatbot.java",
+      "run": "java ChatbotAutograder 5",
+      "input": "",
+      "output": "Why do you want to eat pie\\?\\nWhy do you want to go fishing\\? Does it involve checkers\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWhy do you want to go swimming, unless Paul doesn't want to\\?\\nWhy do you want to throw a party\\? Does it involve checkers\\?\\nWould you really be happy if you had pie\\?\\nWould you really be happy if you had a million bucks\\? I know I'd be happy if I had checkers.\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWould you really be happy if you had unconditional love\\?\\nWould you really be happy if you had many things for Christmas\\? I know I'd be happy if I had checkers.",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Part 6 Tests",
+      "setup": "javac ChatbotAutograder.java Chatbot.java",
+      "run": "java ChatbotAutograder 6",
+      "input": "",
+      "output": "You didn't say anything.\\nYou didn't say anything.\\nRepeat what\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nI love SBS\\!",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Part 7 Tests",
+      "setup": "javac ChatbotAutograder.java Chatbot.java",
+      "run": "java ChatbotAutograder 7",
+      "input": "",
+      "output": "What makes you think that I complete you\\?\\nWhat makes you think that I annoy you\\?\\nWhat makes you think that I cannot compete with you\\?\\nWhat makes you think that I try to play with you\\?\\nWhat makes you think that I can eat more than you\\?\\nWhat makes you think that I am very mad at you\\?\\nWhat makes you think that I seem to take issue with you\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\nWhy do you create music for me\\?\\nWhy do you feel strongly about me\\? Is it because I love checkers\\?\\nWhy do you bake so much better than me\\?\\nWhy are you so much cooler than me\\?\\nWhy can you think of many things to do to me\\? Is it because I love checkers\\?\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))\\n((Hmmm.)|(You don't say.)|(Interesting, tell me more.)|(Do you really think so\\?))",
       "comparison": "regex",
       "timeout": 10,
       "points": null
